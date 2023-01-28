@@ -15,6 +15,7 @@ let orderCart = document.querySelector(".order-cart");
 let orderDetails = document.querySelector(".order-details");
 let defaultCartMsg = document.querySelector(".cart-default");
 let buyProd = document.querySelector(".checkout-order-buy");
+let LiveProd = document.querySelector(".live-order")
 
 
 /** to toggle the mene*/
@@ -87,5 +88,5 @@ buyProd.addEventListener("click",()=>{
     defaultCartMsg.style.display = "none";
     orderCart.style.display = "block";
     orderDetails.style.display = "block";
-    buyProd.innerText = count + "" + count * 125;
+    LiveProd.innerText = orderCount.innerText + " " + orderCount.innerText * 125
 })

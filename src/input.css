@@ -34,6 +34,13 @@ header{
 
 
 /*for the typography0*/
+.First-Nav{
+    display: flex;
+}
+
+.nav a:hover{
+    color: hsl(26, 100%, 55%);
+}
 .order-cart{
     display: none;
     padding: 1rem;
