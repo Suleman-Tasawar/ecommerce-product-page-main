@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="src/input.css" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        margin-top: 2rem;
+        display: block;
+        font-size: 11px;
+        text-align: center;
+        bottom: 0;
+        left: 20%;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="hamburger">
+        <svg
+          class="menu"
+          width="16"
+          height="15"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16 12v3H0v-3h16Zm0-6v3H0V6h16Zm0-6v3H0V0h16Z"
+            fill="#69707D"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo" />
+      </div>
+
+      <nav class="nav">
+        <div class="close-menu">
+          <svg
+            class="close"
+            width="14"
+            height="15"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+              fill="#69707D"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <a href="#"> Collections </a>
+        <a href="#">Men </a>
+        <a href="#">Women </a>
+        <a href="#">About </a>
+        <a href="#">Contact </a>
+      </nav>
+
+      <div class="carts">
+        <div>
+          <img class="cart" src="images/icon-cart.svg" alt="" />
+          <div class="order-cart">
+            <div class="cart-header">Cart</div>
+            <div class="cart-default">Your cart is empty</div>
+            <div class="order-details">
+              <span class="cart-img">
+                <img
+                  src="images/image-product-1-thumbnail.jpg"
+                  alt="your order"
+                />
+              </span>
+              <span class="cart-order">
+                Fall Limited Edition Sneakers <br />125$*
+                <span class="live-order"> </span>
+              </span>
+              <div>
+                <button class="checkout-order">Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="images/image-avatar.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section id="HOME">
+        <div>
+          <div class="home-img">
+            <img class="imageOne" src="images/image-product-1.jpg" />
+            <div class="light-box">
+              <div class="icon-close">
+                <!--
+                <img
+                  class="icon-close-box"
+                  src="images/icon-close.svg"
+                  alt=""
+                />
+                -->
+                <svg
+                  class="icon-close-box"
+                  width="14"
+                  height="15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+                    fill="#000"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+
+              <div class="icon-prev">
+                <!--
+                <img
+                  class="icon-next-img"
+                  src="images/icon-previous.svg"
+                  alt=""
+                />
+                -->
+                <svg
+                  class="icon-next-img"
+                  width="13"
+                  height="18"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m2 1 8 8-8 8"
+                    stroke-width="3"
+                    fill="#000"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+
+              <div class="icon-next">
+                <!--
+                  
+                  <img class="icon-prev-img" src="images/icon-next.svg" alt="" />
+                -->
+                <svg
+                  class="icon-prev-img"
+                  width="12"
+                  height="18"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11 1 3 9l8 8"
+                    stroke-width="3"
+                    fill="#000"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div>
+                <img class="images" src="images/image-product-1.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="prod-img-view">
+            <div class="view-img">
+              <img
+                class="thumbnail1"
+                src="images/image-product-1-thumbnail.jpg"
+                alt="Image 1 thumbnail"
+              />
+            </div>
+            <div class="view-img">
+              <img
+                class="thumbnail2"
+                src="images/image-product-2-thumbnail.jpg"
+                alt="image-product-2-thumbnail"
+              />
+            </div>
+            <div class="view-img">
+              <img
+                class="thumbnail3"
+                src="images/image-product-3-thumbnail.jpg"
+                alt="image-product-3-thumbnail"
+              />
+            </div>
+            <div class="view-img">
+              <img
+                class="thumbnail4"
+                src="images/image-product-4-thumbnail.jpg"
+                alt="image-product-4-thumbnail"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="home-content">
+          <h5>Sneaker Company</h5>
+
+          <h1>Fall Limited Edition Sneakers</h1>
+
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+
+          <div>
+            <span class="price"> 125.00$ </span>
+
+            <span class="price-discount"> 50% </span>
+          </div>
+
+          <div class="actual-price">$250.00</div>
+          <div class="order-btns">
+            <div class="prod-order">
+              <div>
+                <button class="minus-btn decrease-icon">
+                  <img src="images/icon-minus.svg" alt="" />
+                </button>
+              </div>
+              <div class="order-content">0</div>
+              <div>
+                <button class="plus-btn increase-icon">
+                  <img src="images/icon-plus.svg" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <div class="cart-btn">
+              <button>
+                <img
+                  class="checkout-order-buy"
+                  src="images/icon-cart.svg"
+                  alt=""
+                />Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="www.suleman-tasawar-portfolio.on.drv.tw/pages"
+          >Suleman Tasawar</a
+        >.
+      </div>
+    </footer>
+  </body>
+
+  <script src="index.js"></script>
+</html>
